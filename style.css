@@ -1,13 +1,12 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "inter", sans-serif;
     --webkit-font-smoothing: antialiased;
-
 }
 
-;root {
+;root{
     --almost-white: #fff0fa;
     --dark-blue: #08001a;
     --gunmetal: #5e607a;
@@ -21,42 +20,42 @@ body {
     background-color: var(--almost-white);
 }
 
-.header-mobile {
+.header-mobile{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;   
 }
 
-.header-mobiloe button {
+.header-mobile button{
     border: none;
     background: none;
 }
 
-.primeira-secão {
-   margin-button: 4rem; 
+.primeira-secao {
+   margin-bottom: 4rem; 
 }
 
-.primeira-secao img {
+.primeira-secao img{
     width: 100%;
-    margin-button: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
-.primeira-secao h1 {
+.primeira-secao h1{
     font-size: 2.0rem;
     line-height: 100%;
     color: var(--dark-blue);
     margin-bottom: 1rem;
 }
 
-.primeira-secao p {
+.primeira-secao p{
     font-size: 0.9375rem;
     line-height: 1.625rem;
     color: var(--gunmetal);
     margin-bottom: 1.5rem;
 }
 
-.primeira-secao button {
+.primeira-secao button{
     padding: 0.75 rem 2rem;
     background-color: var(--vermillion);
     border: none;
@@ -66,35 +65,65 @@ body {
     letter-spacing: 0.275rem;
     line-height: 1.5rem; 
 }
-
-.segunda-secão {
+.segunda-secao{
     background-color: var(--dark-blue);
     margin-bottom: 4rem;
     padding: 1.5rem 1.1rem;
 }
 
-.margin-border-padding {
+.margin-border-padding{
    border: 1px solid var(--gunmetal);
    margin-bottom: 1.75rem;
    padding-bottom: 1.75rem; 
 }
 
-.segunda-secao h2 {
+.segunda-secao h2{
     color: var(--yellow);
     font-size: 2rem;
     line-height: 100%;
     margin-bottom: 2.2rem;
 }
 
-.segunda-secao h3 {
+.segunda-secao h3{
     color: var(--almost-white);
     line-height: 1.5rem;
     font-weight: 800;
     margin-bottom: 0.5rem;
 }
 
-.segunda-secao {
+.segunda-secao{
     color: var(--silver);
     font-size: 0.9375rem;
     line-height: 1.625rem;
+}
+
+.terceira-secao > div {
+    display: flex;
+    align-items: center;
+    gap:1.5rem;
+    margin-bottom: 2rem;
+}
+
+.terceira-secao img {
+    max-width: 6.25rem;
+}
+
+.terceira-secao strong {
+    color: var(--silver);
+    font-size: 2rem;
+    line-height: 100%;
+}
+
+.terceira-secao h2 {
+    color: var(--dark-blue);
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height: 1.5rem;
+    margin-block: 0.6rem;
+}
+
+.terceira-secao p {
+    font-size: 0.9375rem;
+    line-height: 1.635rem;
+    color: var(--gunmetal);
 }
